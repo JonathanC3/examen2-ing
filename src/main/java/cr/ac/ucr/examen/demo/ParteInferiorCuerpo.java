@@ -1,4 +1,5 @@
 package cr.ac.ucr.examen.demo;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +18,8 @@ public class ParteInferiorCuerpo implements Entrenamiento {
     @Override
     public void verRutinaEntremiento() {
         System.out.println("LowerBody Workout");
-        for(Ejercicio ejercicios : ejercicios){
+        for (Ejercicio ejercicios : ejercicios) {
             System.out.println("Ejercicio: " + ejercicios.getNombre());
         }
     }
+}
